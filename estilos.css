@@ -1,5 +1,6 @@
 body{
     background-color: #000000;
+    width: 100vw;
 }
 
 .titulo{
@@ -26,3 +27,24 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (min-width:1024px){
+    .titulo{
+        font-size: 3rem;
+    }
+    .reloj{
+        width: 28rem;
+        height: 28rem;
+    }
+}
+
+/*Tamaño de Tabletas*/
+/* @media screen and (min-width: 768px){
+    .titulo{
+        font-size: 1.5rem;
+    }
+    .reloj{
+        width: 20rem;
+        height: 20rem;
+    }
+} */
